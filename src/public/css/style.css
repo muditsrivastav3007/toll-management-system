@@ -1,0 +1,42 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:28px;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    min-height:500px;
+    padding-bottom:90px;
+}
+
+.header-line {
+    font-weight:900;
+    padding-bottom:25px;
+    border-bottom:5px solid green;
+    text-transform:uppercase;
+}
+
+#menu-top a {
+    color:#000;
+    text-decoration:none;
+    font-weight:500;
+    padding: 25px 15px 25px 15px;
+    text-transform:uppercase;
+}
+
+.menu-section {
+    background-color: #f7f7f7;
+    border-bottom:5px solid #9170E4;
+    width:100%
+}
+
+.back-widget-set {
+    background-color:transparent;
+}
+
+.footer-section {
+    padding:25px 50px 25px 50px;
+    font-size:13px;
+    text-align:right;
+    border-top:5px solid green;
+}
