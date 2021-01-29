@@ -1,14 +1,14 @@
 FROM node:12-alpine
 
-WORKDIR /toll_management_system/src/app
+RUN mkdir -p /toll_management_system
 
 COPY package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY . /toll_management_system
 
-RUN cd toll_management_system/src/app
+WORKDIR /toll_management_system/src/app
 
 EXPOSE 3000
 

@@ -59,3 +59,10 @@ Returns 200 with boolean value in the json object
 - ejs, bootstrap
 
 <h5><b>this small app is containerized through Docker as well</b></h5>
+
+```
+docker build -t mudit3007/toll-management-system .
+```
+```
+docker run -p 5000:3000 -d mudit3007/toll-management-system
+```
